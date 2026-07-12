@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" width="1280" height="800">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7ad4b5"/>
+      <stop offset="100%" stop-color="#3d1a47"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.3" cy="0.2" r="0.6">
+      <stop offset="0%" stop-color="#ff7a3d" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ff7a3d" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#fafafa" stroke-width="0.5" stroke-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="800" fill="url(#g)"/>
+  <rect width="1280" height="800" fill="url(#grid)"/>
+  <rect width="1280" height="800" fill="url(#glow)"/>
+  <g font-family="ui-sans-serif, -apple-system, system-ui, 'Helvetica Neue', sans-serif">
+    <rect x="60" y="60" width="160" height="2" fill="#ff7a3d"/>
+    <text x="60" y="120" fill="#ff7a3d" font-size="13" font-weight="500" letter-spacing="3" text-transform="uppercase">DESIGN PREVIEW</text>
+    <text x="60" y="380" fill="#fafafa" font-size="84" font-weight="700" letter-spacing="-2">LOOK & ARTE</text>
+    <text x="60" y="440" fill="#fafafa" font-size="22" font-weight="400" opacity="0.7">Bauhaus beauty studio · Buenos Aires</text>
+    <text x="60" y="740" fill="#fafafa" font-size="14" opacity="0.4" font-weight="500" letter-spacing="2">FREELANCEDEV SERVICES · 2026</text>
+    <circle cx="1180" cy="120" r="8" fill="#ff7a3d"/>
+  </g>
+</svg>
